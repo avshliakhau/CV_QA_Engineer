@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>
+        Формы
+    </h1>
+    
+    <form>
+        <div>
+            <label for="text"><strong>Текст</strong></label>
+            <!-- <input type="text" id="text" value="Текст"> -->
+            <input type="text" id="text" placeholder="Введите текст">
+            <!-- value="**" // **=можно указывать "текст по умолчанию" 
+            либо атрибут placeholder="Введите текст"-->
+        </div>
+
+        <div>
+            <label for="message">Обратная связь</label>
+            <br>
+            <textarea id="message" value="Введите сообщение" cols="20" rows="5" >Введите сообщение</textarea>           
+        </div>
+
+        <div>
+            <label for="email">Е-mail</label>
+            <input type="email" id="email" placeholder="Введите e-mail">
+        </div>
+
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="number">Число</label>
+            <input type="number" id="number" min="0" max="18">
+        </div>
+
+        <div>
+            <label for="range">Диапазон</label>
+            <input type="range" id="range" min="0" max="10" step="2">
+        </div>
+
+        <div>
+            <label for="date">Дата</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </div>
+
+        <div>
+            <label for="sex">Your sex</label>
+            <select id="sex">
+                <option value="female">Women</option>
+                <option value="male" selected>Male</option>
+                <!-- selected = значение по умолчанию -->
+                <option value="other">Other</option>
+            </select> 
+        </div>
+
+        <div>
+            <label>Jobs</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 5
+            <!-- чтобы допускался выбор только одного значения добавить 
+                атрибут name="work" значение по умолчанию -->
+        </div>
+
+        <div>
+            <label>Posts</label>
+            <input type="checkbox" name="post"> 1 статья
+            <input type="checkbox" name="post"> 2 статьи
+            <input type="checkbox" name="post"> 5 статей
+        </div>
+
+        <button type="submit">Отправить форму</button>
+        <!--или старый вариант = <input type="submit" value="Отправить форму"> -->
+    </form>
+
+    <p style="border:2px solid blue">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Nesciunt ab atque, voluptatum ullam fuga repudiandae doloribus
+          molestias tempore natus fugit!</p>
+    <p style="border:2px solid blue">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         <strong> mollitia incidunt exercitationem consequatur
+          maxime!</strong> Cumque omnis pariatur iste eum sit.</p>
+    <a href="#" style="border:2px solid red">link_#1</a>
+    <a href="#" style="border:2px solid red">link_#2</a>
+    <div style="border:2px solid grey">
+        <a href="#" style="border:2px solid green">link_#3</a>
+    </div>
+    <hr>
+
+    <style>
+        .header {
+            border: 2px solid red;
+        }
+        .card {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+        }    
+    </style>
+
+
+    <div id="header" class="header">
+        <h2>Site</h2>
+    </div>
+
+    <div id="navigation" style="border:2px solid grey">
+        <li><a href="#" style="border:2px solid green">link_#1</a></li>
+        <li><a href="#" style="border:2px solid green">link_#2</a></li>
+        <li><a href="#" style="border:2px solid green">link_#3</a></li>
+    </div>
+    <hr>
+
+    <div id="block1" class="card header">
+        <h3>Block#1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci 
+            quaerat ea assumenda rerum sapiente dicta maiores, deleniti dolorem ratione?</p>
+    </div>
+
+    <div id="block2" class="card">
+        <h3>Block#2</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et numquam dolore eaque omnis obcaecati recusandae maiores natus sit quas nostrum.
+            ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci 
+            quaerat ea assumenda rerum sapiente dicta maiores, deleniti dolorem ratione?</p>
+    </div>
+    <hr>
+    <div id="footer" style="border:2px solid blue">
+        <h3>Contact me</h3>
+        <ul>
+            <li>Telegram</li>
+            <li>Instagram</li>
+            <li>LinedIn</li>
+        </ul>
+    </div>
+
+</body>
+</html>

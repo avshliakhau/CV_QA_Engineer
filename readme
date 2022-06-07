@@ -1,5 +1,55 @@
 test git push
 c:\Development_JS\CV_QA_Engineer\
 
-test git push 07.06 13.00
+test git push 07.06 13.00 ** получилось!!!
 c:\Development_JS\CV_QA_Engineer\
+
+
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git add .
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   readme
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git commit -m "edit readme file"
+[master eb15e83] edit readme file
+ 1 file changed, 3 insertions(+)
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git branch -vv
+* master eb15e83 edit readme file
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 322 bytes | 161.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:avshliakhau/CV_QA_Engineer.git
+   a943185..eb15e83  master -> master
+
+User@Comp1 MINGW64 /c/Development_JS/cv_qa_engineer (master)

@@ -2,7 +2,7 @@
 
 ![avatar](/imgs/avatar.png "Alex avatar")
 
-# **[ALIAKSANDR SHLIAKHAU](https://avshliakhau.github.io/rsschool-cv/cv)** 
+# **[ALIAKSANDR SHLIAKHAU](https://avshliakhau.github.io/CV_QA_Engineer/cv)** 
 
 ## **Contacts:**
 *	Addres: Belarus

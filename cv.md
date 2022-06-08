@@ -4,22 +4,19 @@
 
 # **[ALIAKSANDR SHLIAKHAU](https://avshliakhau.github.io/rsschool-cv/cv)** 
 
-----------------------
-
 ## **Contacts:**
-	* Addres: Belarus
-	* Phone: +375 29 6907005
-	* E-mail: soandr@inbox.ru 
+*	* Addres: Belarus
+*	* Phone: +375 29 6907005
+*	* E-mail: soandr@inbox.ru 
 
-----------------------
 
 ## **Education:**
 * **The Rolling Scopes**
-    	+ Front-end/ JavaScript developer (in progress)
+    	* Front-end/ JavaScript developer (in progress)
 * **Educational Center of HTP (IT-Academy)**
-    	+ Functional Software Testing 
+    	* Functional Software Testing 
 * **Belarusian State Agrarian Technical University**
-    	+ Mechanical Engineer
+    	* Mechanical Engineer
 
 ## **Tools:**
 * **GitBash/ Linux: (cd, mkdir, mv, cp,  touch, find, cat, tail, vim, grep, curl)**

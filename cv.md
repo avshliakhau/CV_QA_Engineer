@@ -1,6 +1,6 @@
 ## **CV ALIAKSANDR SHLIAKHAU**
 
-![avatar](/imgs/avatar-22.jpg "Alex avatar")
+![avatar](/imgs/avatar_22.jpg "Alex avatar")
 
 # **[ALIAKSANDR SHLIAKHAU](https://avshliakhau.github.io/rsschool-cv/cv)** 
 

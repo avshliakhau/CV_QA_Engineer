@@ -1,13 +1,13 @@
 ## **CV ALIAKSANDR SHLIAKHAU**
 
-![avatar](/imgs/avatar_22.jpg "Alex avatar")
+![avatar](/imgs/avatar.png "Alex avatar")
 
 # **[ALIAKSANDR SHLIAKHAU](https://avshliakhau.github.io/rsschool-cv/cv)** 
 
 ## **Contacts:**
-*	* Addres: Belarus
-*	* Phone: +375 29 6907005
-*	* E-mail: soandr@inbox.ru 
+*	Addres: Belarus
+*	Phone: +375 29 6907005
+*	E-mail: soandr@inbox.ru 
 
 
 ## **Education:**

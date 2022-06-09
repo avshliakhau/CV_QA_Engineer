@@ -1,0 +1,50 @@
+/* селектор "*" обращается абсолютно ко всем элементам */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+    /* font-family: 'Josefin Sans', sans-serif;     */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Tag Name /// сам догадался, что можно писать через запятую)) */
+h1,h2 {
+    color: #0070C0
+}
+body {
+    background: #ddd;
+}
+
+/* Class */
+.card {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.html {
+    background: orange;
+    color: white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+}
+
+.css {
+    background: #0070C0;
+    color: white;       
+}
+
+.css li {
+    color: black;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     */
+}
+
+/* id */
+#header {
+    background: #eee;
+    padding: 10px;
+    color: red;
+}
+
+/* Обращение от родительского тэга к дочернему =
+class p a (и т.п. не ограничено) => .card
+*/

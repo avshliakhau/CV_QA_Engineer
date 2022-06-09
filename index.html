@@ -9,40 +9,47 @@
     <title>Resume Shliakhau</title> <!-- Сверху на ярлыке -->
 </head>
 <body>
-    <img src="imgs/avatar_33.jpg" width="200"
-    alt="АЛЕКСАНДР ШЛЯХОВ">
+    <!-- <img src="imgs/avatar_33.jpg" width="200"
+    alt="АЛЕКСАНДР ШЛЯХОВ"> -->
+
+    <link rel="stylesheet" href="css/style.css">
 
     <img src="imgs/avatar.png" width="200"
     alt="АЛЕКСАНДР ШЛЯХОВ 2">
     <h1>АЛЕКСАНДР ШЛЯХОВ</h1> 
     <hr>     
     
-    <img src="https://images.credly.com/size/340x340/images/1d00cba3-b482-410c-a507-26d58e77f1db/Artboard_Copy_16.png" 
+    <!-- <img src="https://images.credly.com/size/340x340/images/1d00cba3-b482-410c-a507-26d58e77f1db/Artboard_Copy_16.png" 
     width="200" alt="images QA">
-    <hr>
-    <h2>QA Engineer / Front-End Developer</h2>
+    <hr> -->
+    <h2>QA Engineer</h2>
     <hr>
 
+  
+    <h2>Контакты:</h2>
     <h3>
-        <!-- <p>+375 29 6907005 (Беларусь)</p> -->
-        <!-- <a href="tel:+375 29 6907005">+375 29 6907005</a> -->
-        <p><a href="tel:+375 29 6907005" target="_blank">+375 29 6907005</a></p>
-          
-        <p><a href= "mailto:aliaksandr.shliakhau@gmail.com">aliaksandr.shliakhau@gmail.com</a></p>
-        
-        <a href= "https://t.me/Valery4" target="_blank">Telegram</a>
-        |
-        <a href= "https://www.linkedin.com/in/aliaksandr-shliakhau/" target="_blank">LinkedIn</a>
-        |
-        <a href= "https://github.com/avshliakhau" target="_blank">GitHub</a>
+        <div id="header">
+            <!-- <p>+375 29 6907005 (Беларусь)</p> -->
+            <!-- <a href="tel:+375 29 6907005">+375 29 6907005</a> -->
+            <p><a href="tel:+375 29 6907005" target="_blank">+375 29 6907005</a></p>
             
+            <p><a href= "mailto:aliaksandr.shliakhau@gmail.com">aliaksandr.shliakhau@gmail.com</a></p>
+            
+            <a href= "https://t.me/Valery4" target="_blank">Telegram</a>
+            |
+            <a href= "https://www.linkedin.com/in/aliaksandr-shliakhau/" target="_blank">LinkedIn</a>
+            |
+            <a href= "https://github.com/avshliakhau" target="_blank">GitHub</a>
+        </div>    
     </h3>
     <hr>
-    <h2>Инструменты</h2>
+    <h2>Инструменты:</h2>
     <h3>
-        <ul type="disc">
-            <li><strong>GitBash/ Linux: </strong>(cd, mkdir, mv, cp,  touch, find, cat, tail, vim, grep, curl) <em>https://github.com/</em> </li>
-            <li><strong>Git/GitHub</strong> (clon, init, checkout, branch, status, add, commit,  push, pull) https://github.com/</li>
+        <ul class="card html" type="disc">
+            <li><strong>GitBash/ Linux: </strong>(cd, mkdir, mv, cp,  touch, find, cat, tail, vim, grep, curl)<em>
+                <a href="https://github.com/avshliakhau/Ksendzov_22_group/tree/main/Git_bash" target="_blank">github.com</a></em> </li>
+
+            <li><strong>Git/GitHub</strong> (clon, init, checkout, branch, status, add, commit,  push, pull)</li>
             <li><strong>Python + PyTest + Selenium WebDriver:</strong> инструменты для автоматизированного тестирования. https://github.com/, https://github.com/</li>
             <li><strong>Postman Tестирование  REST API.</strong> (коллекции, запросы, переменные окружения, тесты, Ranner, Ranner with data) https://github.com/</li>
             <li><strong>PostgreSQL/ MySQL:</strong> Понимание работы баз данных, написание SQL-запросов, проектирование базы данных. https://github.com/</li>
@@ -55,9 +62,9 @@
 
     <hr>
 
-    <h2>Навыки</h2>
+    <h2>Навыки:</h2>
     <h3>
-        <ol>
+        <ul class="card css">
             <li><strong>Английский язык: Pre-Intermediate in progress.</strong></li>
             <li><strong>Русский язык: носитель.</strong></li>
             <li>Практический опыт выполнения функционального и регрессионного тестирования.</li>
@@ -71,8 +78,11 @@
             <li>Владение техниками тест-дизайна (Pict/ Allpairs).</li>
             <li>Знание клиент-серверной архитектуры.  Знание протоколов модели TCP/IP.</li>
             <li>Понимание гибких методологий разработки (Agile) программного обеспечения (SCRUM, Kanban).</li>
-            <li>Знакомство с Test Management Systems (TestRail, JIRA) и Bug Tracking Systems (JIRA, Bugzilla).</li>
-        </ol>
+            <br>
+            <li> Front-End Developer </li>
+            <li> HTML & CSS </li>
+
+        </ul>
     </h3> 
        
     <hr> 
@@ -80,27 +90,23 @@
         <p><a href="text.html" target="_blank">Опыт работы / Образование</a></p>
     </h3>
 
-    <h2>Связаться со мной</h2>
+    <h2>Связаться со мной:</h2>
     <form>
         <div>
             <label for="name"><strong>Ваше имя</strong></label>
             <input type="text" id="name" placeholder="Введите имя">
         </div>
         <div>
-            <label for="email">Ваш е-mail</label>
+            <label for="email"><strong>Ваш е-mail</strong></label>
             <input type="email" id="email" placeholder="Введите e-mail">
 
         <div>
-            <label for="message">Ваше сообщение</label>
+            <label for="message"><strong>Ваше сообщение</strong></label>
             <br>
             <textarea id="message" placeholder="Введите сообщение..." cols="20" rows="5" ></textarea>           
         </div>
         <button type="submit">Отправить форму</button>
-        
-
-
-
-
+    
     <h4></h4>
     <h5></h5>
     <h6></h6>
